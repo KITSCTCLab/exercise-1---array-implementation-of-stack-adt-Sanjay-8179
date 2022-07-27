@@ -30,7 +30,7 @@ class Stack:
             return b
 
     def status(self):
-        for i in range(self.top+=1):
+        for i in range(self.top+1):
             print(self.items[i])
 
 # Do not change the following code
