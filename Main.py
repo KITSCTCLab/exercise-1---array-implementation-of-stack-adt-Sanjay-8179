@@ -3,10 +3,10 @@ class Stack:
     def __init__(self, size):
         self.items = []
         self.size = size
-        self.top=-1
+        self.top=0
 
     def is_empty(self):
-        if (self.top==-1):
+        if (self.top==0):
             return True
         else:
             return False
