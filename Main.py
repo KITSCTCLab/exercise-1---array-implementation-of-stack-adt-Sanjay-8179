@@ -9,7 +9,7 @@ class Stack:
         if (self.top==-1):
             return True
         else:
-            False
+            return False
 
     def is_full(self):
         if (self.top==self.size-1):
