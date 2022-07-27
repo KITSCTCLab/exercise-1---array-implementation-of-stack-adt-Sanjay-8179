@@ -19,8 +19,8 @@ class Stack:
 
     def push(self, values):
         if not self.is_full():
-            self.top+=1
             self.items[self.top]=values
+            self.top+=1
     
 
     def pop(self):
