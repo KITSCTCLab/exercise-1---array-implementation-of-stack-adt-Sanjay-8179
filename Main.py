@@ -25,9 +25,9 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            a=self.items[self.top].pop()
+            b=self.items[self.top].pop()
             self.top -= 1
-            return a
+            return b
 
     def status(self):
         for i in range(self.top+=1):
