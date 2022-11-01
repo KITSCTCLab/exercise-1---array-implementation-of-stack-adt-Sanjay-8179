@@ -28,7 +28,7 @@ class Stack:
             print(self.items[i])
 
            
-# Do not change the following code
+# Do not change following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
 for line in range(queries):
